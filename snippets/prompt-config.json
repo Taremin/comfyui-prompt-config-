@@ -1,0 +1,22 @@
+[
+    {
+        "label": "config-swap",
+        "insertText": "<config:swap>",
+        "documentation": "swap width and height"
+    },
+    {
+        "label": "config-set",
+        "insertText": "<config:${1|width,height,steps,cfg,sampler_name,scheduler,denoise|}=${2:value}>",
+        "documentation": "*$1*: Generation parameter name<br>*$2*: Value"
+    },
+    {
+        "label": "edit-add",
+        "insertText": "<edit:add:prompt= ${1} :to=${2|positive,negative|}:position=${3|head,tail|}>",
+        "documentation": "*$1*: Prompt<br>*$2*: Add destination<br>*$3*: Position to add"
+    },
+    {
+        "label": "edit-replace",
+        "insertText": "<edit:replace:pattern=${1}:replace=${2}>",
+        "documentation": "*$1*: Regular expression<br>*$2*: Replace string"
+    }
+]
