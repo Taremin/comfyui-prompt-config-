@@ -1,0 +1,14 @@
+[project]
+name = "prompt-config"
+description = "This is a custom node for ComfyUI.\nThe PromptGenerationConfig node allows users to configure settings such as image dimensions, step count, and CFGScale through prompts during image generation.\nThe PromptEdit node enables users to add text from the prompt to the negative prompt (or vice versa) and replace parts of the prompt using regular expressions."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/Taremin/comfyui-prompt-config"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-prompt-config"
+Icon = ""
